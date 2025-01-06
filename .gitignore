@@ -1,0 +1,39 @@
+# Gradle files
+.gradle
+/build
+
+# Local configuration file (SDK path, etc.)
+local.properties
+
+# Android Studio specific files
+/.idea
+*.iml
+
+# Firebase config file (user should add their own)
+app/google-services.json
+
+# MacOS files
+.DS_Store
+
+# Build output
+/app/build/
+/build/
+
+# Capture directories (screenshots, logs, etc.)
+captures
+
+# Native build files
+.externalNativeBuild
+.cxx
+
+# Ignore IDE-specific configurations for IntelliJ or Android Studio
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Temporary files
+*.log
+*.apk
